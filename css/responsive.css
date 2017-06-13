@@ -1,0 +1,231 @@
+@media screen and (max-width: 1090px) {
+  header {
+    background-size: 38%;
+    background-position: 0 200px; } }
+
+@media screen and (max-width: 920px) {
+  footer {
+    padding: 20px 0 0; }
+    footer .top .left {
+      width: 100%;
+      margin-bottom: 15px;
+      text-align: center; }
+      footer .top .left h2 {
+        text-align: center; }
+    footer .top .right {
+      float: none;
+      width: 100%;
+      text-align: center; }
+    footer .bottom .logo, footer .bottom .nav {
+      display: none; }
+    footer .bottom .nav {
+      text-align: right; }
+    footer .bottom .contacts {
+      float: none;
+      text-align: center;
+      width: 100%; } }
+
+@media screen and (max-width: 880px) {
+  h2 {
+    font-size: 20px; }
+  body {
+    font-size: 14px; }
+  header {
+    background-image: none; }
+    header .logo {
+      margin-left: 0; }
+    header .links {
+      font-size: 14px;
+      margin-right: 0; }
+      header .links a:last-of-type {
+        margin-right: 0; }
+    header .title {
+      float: none;
+      text-align: center;
+      margin-right: 0; }
+      header .title h1 {
+        line-height: 38px;
+        font-size: 30px; }
+      header .title .button {
+        margin: 20px auto; }
+  #about {
+    background-image: none; }
+    #about .container * {
+      max-width: 100%; }
+    #about .text.big {
+      text-align: center; }
+  #capabilities .col {
+    width: 40%;
+    margin: 0 5% 5%; }
+  #capabilities .left {
+    text-align: left; }
+  #capabilities .middle {
+    display: none; }
+  #capabilities .item {
+    min-height: 210px; }
+  #capabilities br {
+    display: none; }
+  #capabilities .icon-wrapper > div {
+    float: none;
+    width: 100% !important; }
+  #toogle-blocks .nav, #toogle-blocks .blocks {
+    padding-left: 0;
+    padding-right: 0; }
+  #toogle-blocks #block-1 {
+    margin-right: 0; }
+    #toogle-blocks #block-1 .left, #toogle-blocks #block-1 .middle {
+      width: 40%;
+      margin: 0 5% 5%; }
+    #toogle-blocks #block-1 .text br {
+      display: none; }
+    #toogle-blocks #block-1 .right {
+      display: none; }
+  #toogle-blocks #block-2:before {
+    display: none; }
+  #toogle-blocks #block-2 .icons {
+    display: none; }
+  #toogle-blocks #block-2 .text {
+    margin: 0 auto 20px !important;
+    width: 100%; }
+  #toogle-blocks #block-2 .plashka {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; }
+    #toogle-blocks #block-2 .plashka .col {
+      width: 100%;
+      padding: 0; }
+    #toogle-blocks #block-2 .plashka .icon {
+      display: none; }
+    #toogle-blocks #block-2 .plashka .content, #toogle-blocks #block-2 .plashka p {
+      text-align: center;
+      width: 100% !important; }
+  #toogle-blocks #block-3 .icons-line .col {
+    width: 50%;
+    margin-bottom: 30px; }
+  #toogle-blocks #block-3 .icons-line.id1 {
+    margin-bottom: 0; }
+  #for {
+    padding-bottom: 0; }
+    #for .col {
+      width: 25%;
+      min-height: 140px; }
+  #callback {
+    display: none; }
+  #equipment {
+    margin: 0;
+    padding-top: 40px; }
+    #equipment .left {
+      width: 100%;
+      text-align: center; }
+      #equipment .left img {
+        max-width: 100%; }
+    #equipment .right {
+      padding-top: 25px;
+      width: 100%; }
+      #equipment .right h2 {
+        text-align: center; }
+      #equipment .right p br {
+        display: none; }
+      #equipment .right .items br {
+        display: block; }
+  #price {
+    background: #1599E6; }
+    #price ul {
+      margin-bottom: 10px; }
+    #price .item {
+      width: 40%;
+      margin: 0 5% 5%;
+      min-height: 270px; } }
+
+@media screen and (max-width: 700px) {
+  header .logo {
+    float: none;
+    text-align: center;
+    margin-bottom: 10px; }
+  header .links {
+    float: none;
+    text-align: center; }
+    header .links a {
+      margin: 0 auto 20px;
+      display: block; }
+  header .title {
+    padding-top: 60px; }
+    header .title h1 br {
+      display: none; }
+  #capabilities .col, #toogle-blocks #block-1 .col {
+    width: 100%;
+    margin: 0 0 10px; }
+  #capabilities .item, #toogle-blocks #block-1 .item {
+    min-height: auto; }
+  #equipment .items .col {
+    width: 100%;
+    padding: 0 !important; }
+    #equipment .items .col br {
+      display: none; } }
+
+@media screen and (max-width: 600px) {
+  #price .item {
+    width: 100%;
+    margin: 0 0 20px;
+    min-height: auto; }
+  #price .content br {
+    display: none; }
+  #works .container {
+    width: 80%; }
+    #works .container .col {
+      width: 40%; }
+    #works .container img {
+      width: 100%;
+      height: auto; }
+  footer .container {
+    padding-left: 15px;
+    padding-right: 15px; }
+  footer .top .input {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: auto; } }
+
+@media screen and (max-width: 515px) {
+  .popup .popup-container {
+    width: 90%;
+    margin: 0 5%; }
+    .popup .popup-container .col {
+      width: 100%; }
+  #toogle-blocks .nav .col {
+    float: none;
+    width: 100%; }
+  #toogle-blocks .nav button {
+    float: none !important;
+    display: block !important;
+    margin: 0 auto 10px !important; }
+  #toogle-blocks #block-3 .icons-line .col {
+    width: 100%; }
+    #toogle-blocks #block-3 .icons-line .col br {
+      display: none; }
+  #for .col {
+    width: 50%; }
+  #equipment .items .col .icon-wrapper {
+    float: none;
+    display: block;
+    padding-right: 0;
+    margin: 0 auto 10px;
+    width: 100%;
+    text-align: center; }
+  footer .top .good {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; } }
+
+@media screen and (max-width: 425px) {
+  #toogle-blocks #block-3 .icons-line .col {
+    margin-bottom: 40px; }
+    #toogle-blocks #block-3 .icons-line .col * {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0 !important; } }
+
+@media screen and (max-width: 400px) {
+  header .title h1 {
+    font-size: 24px; } }
